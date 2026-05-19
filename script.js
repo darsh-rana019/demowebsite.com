@@ -1,4 +1,4 @@
-const WEBHOOK_URL = "PASTE_YOUR_N8N_WEBHOOK_HERE";
+const WEBHOOK_URL = "https://darshrana1409.app.n8n.cloud/webhook-test/newlead";
 
 const leadForm = document.getElementById('leadForm');
 const submitButton = document.getElementById('submitButton');
