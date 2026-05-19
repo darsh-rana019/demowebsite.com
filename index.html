@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pragati Capitals | Loan Assistance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero section-glow">
+      <div class="hero-copy">
+        <span class="eyebrow">Pragati Capitals</span>
+        <h1>Get Instant Loan Assistance</h1>
+        <p>Fast, secure and trusted financial solutions.</p>
+        <a class="btn btn-primary" href="#lead-form">Apply Now</a>
+      </div>
+      <div class="hero-cards">
+        <article class="glass-card card-shadow">
+          <h2>Trusted support</h2>
+          <p>Expert advisors help you choose the best loan option.</p>
+        </article>
+        <article class="glass-card card-shadow">
+          <h2>Flexible terms</h2>
+          <p>Loan solutions built around your needs and timeline.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="features section-glow" id="features">
+      <div class="section-heading">
+        <p class="section-label">Why choose us</p>
+        <h2>Finance made easy for every goal</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card glass-card">
+          <h3>Fast Approval</h3>
+          <p>Get decisions quickly with our streamlined process.</p>
+        </div>
+        <div class="feature-card glass-card">
+          <h3>Trusted Service</h3>
+          <p>Reliable financial guidance from a dedicated team.</p>
+        </div>
+        <div class="feature-card glass-card">
+          <h3>Secure Process</h3>
+          <p>Your data is protected with premium security standards.</p>
+        </div>
+        <div class="feature-card glass-card">
+          <h3>Low Interest Support</h3>
+          <p>Competitive rates and support to keep costs down.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lead section-glow" id="lead-form">
+      <div class="form-panel glass-card card-shadow">
+        <div class="form-intro">
+          <p class="section-label">Ready to apply?</p>
+          <h2>Submit your details for a fast response</h2>
+          <p>Complete the form and our finance team will contact you shortly.</p>
+        </div>
+        <form id="leadForm">
+          <div class="form-grid">
+            <label>
+              <span>Full Name</span>
+              <input type="text" name="name" placeholder="Your full name" required />
+            </label>
+            <label>
+              <span>Phone Number</span>
+              <input type="tel" name="phone" placeholder="1234567890" pattern="[0-9]*" inputmode="numeric" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              <span>City</span>
+              <input type="text" name="city" placeholder="Your city" required />
+            </label>
+            <label>
+              <span>Loan Type</span>
+              <select name="loanType" required>
+                <option value="">Select loan type</option>
+                <option value="Personal Loan">Personal Loan</option>
+                <option value="Home Loan">Home Loan</option>
+                <option value="Business Loan">Business Loan</option>
+                <option value="Car Loan">Car Loan</option>
+              </select>
+            </label>
+            <label>
+              <span>Loan Amount</span>
+              <input type="number" name="amount" placeholder="Amount" min="0" required />
+            </label>
+          </div>
+
+          <label class="full-width">
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Tell us about your loan needs"></textarea>
+          </label>
+
+          <button class="btn btn-gradient" type="submit" id="submitButton">Submit Lead</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="cta section-glow">
+      <div class="cta-card glass-card card-shadow">
+        <div>
+          <p class="section-label">Start today</p>
+          <h2>Take the first step toward financial clarity.</h2>
+        </div>
+        <a class="btn btn-secondary" href="#lead-form">Contact Us</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© 2026 Pragati Capitals</p>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast">Lead submitted successfully!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
