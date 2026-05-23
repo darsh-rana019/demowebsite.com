@@ -3,13 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pragati Capitals | Loan Assistance</title>
+  <title>Pragati Capitals - Loans, Insurance, IT Services & Financial Solutions</title>
+  <meta name="description" content="Pragati Capitals provides loans, insurance, IT services, government liaison, and business solutions with fast approvals and expert guidance." />
+  <meta name="keywords" content="Pragati Capitals, loans, insurance, IT services, financial solutions, government liaison, business services, loan eligibility" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Pragati Capitals" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Pragati Capitals - Loans, Insurance, IT Services & Financial Solutions" />
+  <meta property="og:description" content="Pragati Capitals provides loans, insurance, IT services, government liaison, and business solutions with fast approvals and expert guidance." />
+  <meta property="og:image" content="favicon.svg" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pragati Capitals - Loans, Insurance, IT Services & Financial Solutions" />
+  <meta name="twitter:description" content="Pragati Capitals provides loans, insurance, IT services, government liaison, and business solutions with fast approvals and expert guidance." />
+  <meta name="twitter:image" content="favicon.svg" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Pragati Capitals",
+        "url": "https://yourdomain.com",
+        "logo": "https://yourdomain.com/favicon.svg",
+        "sameAs": []
+      },
+      {
+        "@type": "FinancialService",
+        "name": "Pragati Capitals",
+        "serviceType": "Financial Services",
+        "areaServed": "IN",
+        "url": "https://yourdomain.com",
+        "telephone": "+91-1234567890",
+        "email": "info@pragaticapitals.com"
+      },
+      {
+        "@type": "LocalBusiness",
+        "name": "Pragati Capitals",
+        "image": "https://yourdomain.com/favicon.svg",
+        "telephone": "+91-1234567890",
+        "email": "info@pragaticapitals.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Finance Avenue",
+          "addressLocality": "Mumbai",
+          "addressRegion": "MH",
+          "postalCode": "400001",
+          "addressCountry": "IN"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
+  <div id="pageLoader" class="page-loader" aria-hidden="false">
+    <div class="loader-circle"></div>
+    <p>Loading Pragati Capitals...</p>
+  </div>
+  <div class="top-progress" id="topProgress" aria-hidden="true"></div>
+  <header class="site-header" aria-label="Primary">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-mark">PC</span>
+        <span>Pragati Capitals</span>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#features">Why Us</a>
+        <a href="#affordabilityCalc">Calculator</a>
+        <a href="#lead-form">Apply</a>
+        <a href="#partners">Partners</a>
+      </nav>
+      <a class="btn btn-secondary header-call" href="tel:+911234567890">Call Us</a>
+    </div>
+  </header>
   <main class="page-shell">
     <section class="hero section-glow">
       <div class="hero-copy">
@@ -55,56 +128,288 @@
       </div>
     </section>
 
-    <section class="lead section-glow" id="lead-form">
-      <div class="form-panel glass-card card-shadow">
-        <div class="form-intro">
-          <p class="section-label">Ready to apply?</p>
-          <h2>Submit your details for a fast response</h2>
-          <p>Complete the form and our finance team will contact you shortly.</p>
+    <div class="section-divider"></div>
+
+    <section class="partners section-glow" id="partners">
+      <div class="section-heading">
+        <p class="section-label">Trusted by leading banks</p>
+        <h2>Partnered with premium financial institutions</h2>
+      </div>
+      <div class="partner-grid">
+        <div class="partner-card">HDFC Bank</div>
+        <div class="partner-card">ICICI Bank</div>
+        <div class="partner-card">SBI</div>
+        <div class="partner-card">Axis Bank</div>
+        <div class="partner-card">Kotak</div>
+      </div>
+    </section>
+
+    <section class="stats section-glow" id="stats">
+      <div class="stats-grid">
+        <div class="stat-card glass-card">
+          <p class="stat-number" data-target="1250">0</p>
+          <p class="stat-label">Happy Clients</p>
         </div>
-        <form id="leadForm">
+        <div class="stat-card glass-card">
+          <p class="stat-number" data-target="982">0</p>
+          <p class="stat-label">Loans Approved</p>
+        </div>
+        <div class="stat-card glass-card">
+          <p class="stat-number" data-target="12">0</p>
+          <p class="stat-label">Years Experience</p>
+        </div>
+        <div class="stat-card glass-card">
+          <p class="stat-number" data-target="8">0</p>
+          <p class="stat-label">Services Offered</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section-glow" id="testimonials">
+      <div class="section-heading">
+        <p class="section-label">Client feedback</p>
+        <h2>Real stories from our customers</h2>
+      </div>
+      <div class="testimonial-shell">
+        <div class="testimonial-slider" id="testimonialSlider">
+          <article class="testimonial-card active">
+            <p class="quote">"Pragati Capitals helped me secure a home loan quickly with zero hassle. Their guidance was top-notch."</p>
+            <p class="author">— Anjali Sharma, Mumbai</p>
+          </article>
+          <article class="testimonial-card">
+            <p class="quote">"The team simplified my business loan process and made the paperwork smooth. Highly recommended."</p>
+            <p class="author">— Rohit Verma, Delhi</p>
+          </article>
+          <article class="testimonial-card">
+            <p class="quote">"Excellent support for insurance and compliance. I felt confident throughout the process."</p>
+            <p class="author">— Meera Joshi, Bangalore</p>
+          </article>
+        </div>
+        <div class="testimonial-controls">
+          <button id="testimonialPrev" aria-label="Previous testimonial">‹</button>
+          <button id="testimonialNext" aria-label="Next testimonial">›</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Loan Affordability Calculator -->
+    <section class="calc section-glow" id="affordabilityCalc">
+      <div class="calc-panel glass-card card-shadow">
+        <div class="section-heading">
+          <p class="section-label">Affordability Calculator</p>
+          <h2>Estimate EMI, Loan Amount & Property Cost</h2>
+        </div>
+
+        <div class="calc-grid">
+          <div class="calc-inputs">
+            <label class="calc-row">
+              <span>Monthly Income</span>
+              <div class="row-controls">
+                <input type="range" id="incomeRange" min="10000" max="1000000" step="1000" value="50000">
+                <input type="number" id="incomeInput" min="10000" max="1000000" step="1000">
+              </div>
+            </label>
+
+            <label class="calc-row">
+              <span>Existing EMI</span>
+              <div class="row-controls">
+                <input type="range" id="emiRange" min="0" max="500000" step="500" value="0">
+                <input type="number" id="emiInput" min="0" max="500000" step="500">
+              </div>
+            </label>
+
+            <label class="calc-row">
+              <span>Interest Rate (% p.a.)</span>
+              <div class="row-controls">
+                <input type="range" id="rateRange" min="5" max="18" step="0.1" value="8.5">
+                <input type="number" id="rateInput" min="5" max="18" step="0.1">
+              </div>
+            </label>
+
+            <label class="calc-row">
+              <span>Loan Tenure (years)</span>
+              <div class="row-controls">
+                <input type="range" id="tenureRange" min="1" max="30" step="1" value="15">
+                <input type="number" id="tenureInput" min="1" max="30" step="1">
+              </div>
+            </label>
+
+            <label class="calc-row">
+              <span>Down Payment</span>
+              <div class="row-controls">
+                <input type="range" id="downRange" min="0" max="50000000" step="10000" value="500000">
+                <input type="number" id="downInput" min="0" max="50000000" step="10000">
+              </div>
+            </label>
+
+            <div class="foir-row">
+              <span>FOIR (Fixed Obligation to Income Ratio)</span>
+              <div class="foir-cards" id="foirCards" role="tablist">
+                <button class="foir-card" data-foir="0.35">35%</button>
+                <button class="foir-card" data-foir="0.40">40%</button>
+                <button class="foir-card active" data-foir="0.45">45%</button>
+                <button class="foir-card" data-foir="0.50">50%</button>
+                <button class="foir-card" data-foir="0.60">60%</button>
+              </div>
+              <div class="foir-tip muted">FOIR is the portion of income available for loan repayment after other obligations.</div>
+            </div>
+
+            <div class="calc-actions">
+              <button id="calcNow" class="btn btn-gradient">Calculate</button>
+              <button id="applyCalc" class="btn btn-primary">Apply Now</button>
+            </div>
+          </div>
+
+          <div class="calc-results">
+            <div class="results-grid">
+              <div class="result-card glass-card">
+                <p class="label">Eligible EMI</p>
+                <div class="result-value" id="resEmi">₹0</div>
+              </div>
+              <div class="result-card glass-card">
+                <p class="label">Estimated Loan Amount</p>
+                <div class="result-value" id="resLoan">₹0</div>
+              </div>
+              <div class="result-card glass-card">
+                <p class="label">Estimated Property Cost</p>
+                <div class="result-value" id="resProperty">₹0</div>
+              </div>
+            </div>
+
+            <div class="result-cta">
+              <div class="eligibility-text" id="eligText">🎉 You may be eligible for a loan up to ₹0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      /* Calculator script will be initialised in script.js to keep code modular */
+    </script>
+
+    <section class="lead section-glow" id="lead-form">
+      <div class="form-panel glass-card card-shadow lead-panel">
+        <div class="form-intro">
+          <p class="section-label">Ready to connect?</p>
+          <h2>Tell us what you need — we'll handle the rest</h2>
+          <p>Choose a category and service, share a few details, and our team will reach out quickly.</p>
+          <div class="form-progress-shell">
+            <div class="form-progress" id="formProgress"></div>
+          </div>
+        </div>
+
+        <form id="leadForm" novalidate>
           <div class="form-grid">
             <label>
               <span>Full Name</span>
               <input type="text" name="name" placeholder="Your full name" required />
+              <small class="hint error" data-for="name"></small>
             </label>
+
             <label>
               <span>Phone Number</span>
               <input type="tel" name="phone" placeholder="1234567890" pattern="[0-9]*" inputmode="numeric" required />
+              <small class="hint error" data-for="phone"></small>
             </label>
+
             <label>
               <span>Email</span>
               <input type="email" name="email" placeholder="you@example.com" required />
+              <small class="hint error" data-for="email"></small>
             </label>
+
             <label>
               <span>City</span>
               <input type="text" name="city" placeholder="Your city" required />
+              <small class="hint error" data-for="city"></small>
+            </label>
+
+            <label>
+              <span>Which category do you need help with?</span>
+              <select name="category" id="categorySelect" required>
+                <option value="">Select category</option>
+                <option>Loans</option>
+                <option>Insurance</option>
+                <option>Government Liaison</option>
+                <option>Information Technology</option>
+                <option>Real Estate</option>
+                <option>Investment Services</option>
+                <option>Documentation Services</option>
+                <option>Tax & Compliance</option>
+              </select>
+              <small class="hint muted">Choose a category to see specific services</small>
+            </label>
+
+            <label>
+              <span>Which service do you need?</span>
+              <select name="service" id="serviceSelect" required>
+                <option value="">Select service</option>
+              </select>
+              <small class="hint error" data-for="service"></small>
+            </label>
+          </div>
+
+          <div id="loanExtraFields" class="form-grid extra-fields" aria-hidden="true">
+            <label class="floating-group">
+              <span>Monthly Income</span>
+              <input type="text" name="monthlyIncome" placeholder="Monthly income" />
+            </label>
+            <label class="floating-group">
+              <span>Existing EMI</span>
+              <input type="text" name="existingEmi" placeholder="Existing EMI" />
             </label>
             <label>
-              <span>Loan Type</span>
-              <select name="loanType" required>
-                <option value="">Select loan type</option>
-                <option value="Personal Loan">Personal Loan</option>
-                <option value="Home Loan">Home Loan</option>
-                <option value="Business Loan">Business Loan</option>
-                <option value="Car Loan">Car Loan</option>
+              <span>Employment Type</span>
+              <select name="employmentType">
+                <option value="">Select employment</option>
+                <option>Salaried</option>
+                <option>Self-Employed</option>
+                <option>Business</option>
+                <option>Student</option>
+                <option>Retired</option>
               </select>
             </label>
-            <label>
-              <span>Loan Amount</span>
-              <input type="number" name="amount" placeholder="Amount" min="0" required />
+            <label class="floating-group">
+              <span>Required Loan Amount</span>
+              <input type="text" name="requiredLoanAmount" placeholder="Required amount" />
             </label>
           </div>
 
           <label class="full-width">
             <span>Message</span>
-            <textarea name="message" rows="5" placeholder="Tell us about your loan needs"></textarea>
+            <textarea name="message" rows="4" placeholder="Share any details that will help us" ></textarea>
           </label>
 
-          <button class="btn btn-gradient" type="submit" id="submitButton">Submit Lead</button>
+          <div class="form-actions">
+            <button class="btn btn-gradient" type="submit" id="submitButton">
+              <span class="btn-text">Submit Lead</span>
+              <span class="btn-spinner" aria-hidden="true"></span>
+            </button>
+            <div class="legal muted">We may contact you via phone or email. Your data is secure.</div>
+          </div>
+          <!-- Hidden calculator values (populated by calculator) -->
+          <input type="hidden" name="calc_foir" id="hiddenFoir">
+          <input type="hidden" name="calc_downPayment" id="hiddenDown">
+          <input type="hidden" name="calc_interestRate" id="hiddenRate">
+          <input type="hidden" name="calc_tenure" id="hiddenTenure">
+          <input type="hidden" name="calculatedLoanAmount" id="hiddenLoanAmount">
+          <input type="hidden" name="calculatedPropertyCost" id="hiddenPropertyCost">
         </form>
       </div>
     </section>
+
+    <!-- Floating WhatsApp button -->
+    <a id="whatsappBtn" class="whatsapp-fab" href="https://wa.me/" target="_blank" aria-label="Chat on WhatsApp">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21.7 2.3c-.6-.6-1.4-.9-2.2-.9C4.8 1.4 1 10.1 1 15.1c0 2.6 1.1 4.9 3 6.6L2 23l1.7-2.1c1.6 1 3.6 1.6 5.7 1.6 5 0 13.7-3.8 13.7-18.5 0-.8-.3-1.6-.9-2.2z" fill="#fff"/></svg>
+    </a>
+    <a id="callBtn" class="call-fab" href="tel:+911234567890" aria-label="Call Pragati Capitals">
+      <span>📞</span>
+    </a>
+    <button id="mobileApply" class="mobile-apply" type="button" aria-label="Apply Now">Apply Now</button>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
 
     <section class="cta section-glow">
       <div class="cta-card glass-card card-shadow">
@@ -122,6 +427,18 @@
   </main>
 
   <div class="toast" id="toast">Lead submitted successfully!</div>
+  <div class="success-modal" id="successModal" aria-hidden="true">
+    <div class="success-card glass-card card-shadow">
+      <div class="success-icon">✓</div>
+      <h3>Application Submitted Successfully</h3>
+      <p>Our team will contact you shortly regarding your loan eligibility.</p>
+      <div class="success-actions">
+        <button class="btn btn-secondary" id="successClose">Close</button>
+        <button class="btn btn-gradient" id="successAgain">Calculate Again</button>
+      </div>
+    </div>
+    <div class="confetti-layer" id="confettiLayer"></div>
+  </div>
 
   <script src="script.js"></script>
 </body>
